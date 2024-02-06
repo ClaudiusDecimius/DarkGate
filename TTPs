@@ -1,0 +1,43 @@
+Initial Access
+Phishing: Spearphishing Attachment (T1566.001)
+
+Execution
+User Execution: Malicious File (T1204.002)
+
+Persistence
+Boot or Logon AutoStart Execution: Registry Run Keys / Startup Folder (T1547.001)
+
+Privilege Escalation
+Exploitation for Privilege Escalation (T1068)
+Process Injection: Process Hollowing (T1055.012)
+
+Defense Evasion
+Access Token Manipulation: Parent PID Spoofing (T1134.004)
+Hijack Execution Flow (1574.002)
+Indicator Removal (T1070.004)
+Process Injection: Process Hollowing (1055.012)
+
+Credential Access
+Credentials from Password Stores (T1555)
+Credentials from Web Browsers (T1555.003)
+Steal Application Access Token (T1528)
+Steal Web Session Cookie (T1539)
+
+Discovery
+Process Discovery (T1057)
+Browser Information Discovery (T1217)
+File and Directory Discovery (T1083)
+System Information Discovery (T1082)
+
+Collection
+Archive Collected Data: Archive via Utility (T1560.001)
+Data from Local System (T1005)
+Input Capture: Keylogging (T1056.001)
+
+Command and Control
+Application Layer Protocol: Web Protocols (T1071.001)
+Data Encoding: Non-Standard Encoding (T1132.002)
+Remote Access Software (T1219)
+
+Exfiltration
+Exfiltration Over C2 Channel (T1041)
